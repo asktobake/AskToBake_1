@@ -1,0 +1,103 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+ }
+
+ul.nav,.jumbotron h1{
+  font-family: 'Arvo', courier, serif;
+}
+
+ul.nav{
+  font-size: 13px;
+}
+
+footer{
+  background-color: #f74c3c;
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
+#main-services{
+  background-color: #f5f5f5;
+}
+
+.gallery {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.jumbotron{
+  text-align: center;
+  background-image: url("../images/image2.jpg");
+  color: brown
+}
+
+.jumbotron p{
+  font-weight: 100;
+}
+
+.homepage{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.homepage h2,.homepage h3{
+  color: brown;
+  font-family: 'Arvo', courier, serif;
+  text-transform: uppercase;
+}
+
+.homepage h2{
+  font-size: 30px;
+}
+
+.homepage h3{
+  font-size: 26px;
+}
+
+.homapage p{
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.homepage a{
+  color: brown;
+}
+
+.homepage a:hover{
+  color: #e74c3c;
+  text-decoration: none;
+  opacity: .8;
+}
+
+.homepage hr{
+  border-color: brown;
+  width: 160px;
+  margin-top: 15px;
+}
+
+.emphasis{
+  color: brown;
+  font-family: 'Arvo', courier, serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.blog-post{
+    font-family: 'Arvo', courier, serif;
+    color: brown;
+}
+
+.blog-post-meta{
+  font-weight: 500;
+}
+
+#social{
+  padding-left: 400px;
+}
+
+#footer{
+  margin-top: -102px;
+}
